@@ -6,26 +6,26 @@ namespace Aula_14_09_2023
     {
         static void Main(string[] args)
         {
-            string programa;
+                string programa;
 
-            Console.Write("Digite o programa desejado: ");
-            programa = Console.ReadLine();
+                Console.Write("Digite o programa desejado: ");
+                programa = Console.ReadLine();
 
-            if (programa == "ex_1")
-            {
-                ex_1();
+                if (programa == "ex_1")
+                {
+                    ex_1();
+                }
+
+                else if (programa == "ex_2")
+                {
+                    ex_2();
+                }
+
+                else
+                {
+                    Console.Write("Digitou algo errado");
+                }
             }
-
-            else if (programa == "ex_2")
-            {
-                ex_2();
-            }
-
-            else
-            {
-                Console.Write("Digitou algo errado");
-            }
-        }
 
         static void ex_1() // soma de dois números (14_09_2023) 
         {
@@ -58,6 +58,11 @@ namespace Aula_14_09_2023
 
             Console.WriteLine("\nSua média é: {0}", (n1 + n2 + n3 + n4) / 4);
             Console.WriteLine($"\nSua média é: {(n1 + n2 + n3 + n4) / 4}"); // outra maneira de dar a resposta 
+        }
+
+        static void ex_3() // coletar os 4 numeros fazer a média e se for <7 reprovou e >7 passou (19_09_2023)
+        {
+
         }
 
     }
