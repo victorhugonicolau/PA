@@ -62,7 +62,36 @@ namespace Aula_14_09_2023
 
         static void ex_3() // coletar os 4 numeros fazer a média e se for <7 reprovou e >7 passou (19_09_2023)
         {
+            float n1, n2, n3, n4, media;
 
+            Console.Write("Digite a primeira nota: ");
+            n1 = byte.Parse(Console.ReadLine());
+
+            Console.Write("Digite a segunda nota: ");
+            n2 = float.Parse(Console.ReadLine());
+
+            Console.Write("Digite a terceira nota: ");
+            n3 = float.Parse(Console.ReadLine());
+
+            Console.Write("Digite a quarta nota: ");
+            n4 = float.Parse(Console.ReadLine());
+
+            media = (n1 + n2 + n3 + n4) / 4;
+
+            if (media >= 7 && media <= 10)
+            {
+                Console.WriteLine($"\n Sua média é {media} passou de ano!");
+            }
+
+            else if (media < 7 && media >= 0)
+            {
+                Console.WriteLine($"\n Sua média é {media} reprovou de ano!");
+            }
+
+            else
+            {
+                Console.WriteLine("\nSua media deve estar entre 0 e 10");
+            }
         }
 
     }

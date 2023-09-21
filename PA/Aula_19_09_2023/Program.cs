@@ -6,31 +6,40 @@ namespace Aula_19_09_2023
     {
         static void Main(string[] args)
         {
-            float n1, n2, n3, n4, media;
+            ex_2();
+        }
 
-            Console.Write("Digite a primeira nota: ");
-            n1 = byte.Parse(Console.ReadLine());
+        static void ex_1() // soma de dois números (14_09_2023) 
+        {
+            int numero1, numero2;
 
-            Console.Write("Digite a segunda nota: ");
-            n2 = float.Parse(Console.ReadLine());
+            Console.Write("\nDigite o número para soma: ");
+            numero1 = int.Parse(Console.ReadLine());
 
-            Console.Write("Digite a terceira nota: ");
-            n3 = float.Parse(Console.ReadLine());
+            Console.Write("Digite o segundo número para soma: ");
+            numero2 = int.Parse(Console.ReadLine());
 
-            Console.Write("Digite a quarta nota: ");
-            n4 = float.Parse(Console.ReadLine());
+            Console.WriteLine("O resultado é: {0} ", numero1 + numero2);
+        }
 
-            media = (n1 + n2 + n3 + n4) / 4;
+        static void ex_2() // a média de quatro números (14_09_2023)
+        {
+            decimal n1, n2, n3, n4;
 
-            if (media > 7)
-            {
-                Console.Write($"/n Sua média é {media} passou de ano!");
-            }
+            Console.Write("Escreva a primeira nota: ");
+            n1 = decimal.Parse(Console.ReadLine());
 
-            else
-            {
-                Console.Write($"/n Sua média é { media} reprovou de ano!!");
-            }
+            Console.Write("Escreva a segunda nota: ");
+            n2 = decimal.Parse(Console.ReadLine());
+
+            Console.Write("Escreva a terceira nota: ");
+            n3 = decimal.Parse(Console.ReadLine());
+
+            Console.Write("Escreva a quarta nota: ");
+            n4 = decimal.Parse(Console.ReadLine());
+
+            Console.WriteLine("\nSua média é: {0}", (n1 + n2 + n3 + n4) / 4);
+            Console.WriteLine($"\nSua média é: {(n1 + n2 + n3 + n4) / 4}"); // outra maneira de dar a resposta 
         }
     }
 }
