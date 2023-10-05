@@ -38,7 +38,7 @@ namespace Aula_14_09_2023
             numero2 = int.Parse(Console.ReadLine());
 
             Console.WriteLine("O resultado é: {0} ", numero1 + numero2);
-        }  
+        }
 
         static void ex_2() // a média de quatro números (14_09_2023)
         {
