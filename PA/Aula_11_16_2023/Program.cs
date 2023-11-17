@@ -6,16 +6,34 @@ namespace Aula_11_16_2023
     {
         static void Main(string[] args)
         {
-
+            desafio();
         }
 
-        static void ex_1()
+        static void ex_2()
         {
 
-            Console.WriteLine("Números ímpares:");
+            string resposta = "S";
+
+            while (resposta.ToUpper() == "S")
+            {
+                Console.Clear();
+                ex_2complemento();
+                Console.Write("Deseja continuar? ");
+                resposta = Console.ReadLine();
+            }
+        }
+
+        static void ex_2complemento()
+        {
+            float numeroN;
+
+            Console.WriteLine("Programa para mostrar os números ímpares");
+
+            Console.Write("Iforme o número: ");
+            numeroN = float.Parse(Console.ReadLine());
 
 
-            for (int contador = 1; contador <= 20; contador++)
+            for (int contador = 1; contador <= numeroN; contador++)
             {
 
                 if (contador % 2 != 0)
@@ -23,12 +41,28 @@ namespace Aula_11_16_2023
                     Console.WriteLine(contador);
                 }
             }
-
         }
 
-        static void ex_2()
+
+        static void ex_1()
         {
+            string resposta = "S";
+
+            while (resposta.ToUpper() == "S")
+            {
+                Console.Clear();
+                ex_1complemento();
+                Console.Write("Deseja continuar? ");
+                resposta = Console.ReadLine();
+            }
+        }
+
+        static void ex_1complemento()
+        {
+
             int subtracao1, subtracao2;
+
+            Console.WriteLine("Programa com 3 contas de subtração");
 
             for (int contador = 1; contador <= 3; contador++)
             {
@@ -40,6 +74,11 @@ namespace Aula_11_16_2023
 
                 Console.WriteLine($"O Resultado: {subtracao1 - subtracao2}\n");
             }
+        }
+
+        static void desafio()
+        {
+           
         }
     }
 }
