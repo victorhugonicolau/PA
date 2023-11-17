@@ -21,9 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula_10_26_2023_doWhile", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula_10_26_2023_Ex_doWhile_While", "Aula_10_26_2023_Ex_doWhile_While\Aula_10_26_2023_Ex_doWhile_While.csproj", "{1489C28A-964C-4856-BF82-B18695F2B9CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula_11_07_2023_For", "Aula_07_11_2023_For\Aula_11_07_2023_For.csproj", "{9CB7A1F1-08A5-4133-8215-0A9AF0FA903C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula_11_07_2023_For", "Aula_07_11_2023_For\Aula_11_07_2023_For.csproj", "{9CB7A1F1-08A5-4133-8215-0A9AF0FA903C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula_11_07_2023_Par_Impar", "Aula_11_07_2023_Par_Impar\Aula_11_07_2023_Par_Impar.csproj", "{724EADA8-B5BE-48C0-AE45-1F9E87BC5CDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula_11_07_2023_Par_Impar", "Aula_11_07_2023_Par_Impar\Aula_11_07_2023_Par_Impar.csproj", "{724EADA8-B5BE-48C0-AE45-1F9E87BC5CDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula_11_16_2023", "Aula_11_16_2023\Aula_11_16_2023.csproj", "{5C604EF4-3EDB-4889-9324-669EA85A4364}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{724EADA8-B5BE-48C0-AE45-1F9E87BC5CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{724EADA8-B5BE-48C0-AE45-1F9E87BC5CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{724EADA8-B5BE-48C0-AE45-1F9E87BC5CDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C604EF4-3EDB-4889-9324-669EA85A4364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C604EF4-3EDB-4889-9324-669EA85A4364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C604EF4-3EDB-4889-9324-669EA85A4364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C604EF4-3EDB-4889-9324-669EA85A4364}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
