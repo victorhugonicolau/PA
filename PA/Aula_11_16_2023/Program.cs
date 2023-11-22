@@ -6,7 +6,7 @@ namespace Aula_11_16_2023
     {
         static void Main(string[] args)
         {
-            desafio();
+            ex_2();
         }
 
         static void ex_2()
